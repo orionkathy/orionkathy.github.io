@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark Background -->
+  <rect width="512" height="512" rx="256" fill="#1A1A2E"/>
+  
+  <!-- Center Divider -->
+  <line x1="256" y1="20" x2="256" y2="492" stroke="#2a2a4e" stroke-width="2"/>
+  
+  <!-- Left: AI Brain Circuit (Teal) -->
+  <g fill="none" stroke="#00CFB5" stroke-width="3" opacity="0.8">
+    <circle cx="80" cy="120" r="6" fill="#00CFB5"/>
+    <circle cx="160" cy="80" r="8" fill="#00CFB5"/>
+    <circle cx="200" cy="180" r="5" fill="#00CFB5"/>
+    <circle cx="100" cy="260" r="7" fill="#00CFB5"/>
+    <circle cx="220" cy="320" r="6" fill="#00CFB5"/>
+    <circle cx="140" cy="380" r="8" fill="#00CFB5"/>
+    <circle cx="60" cy="400" r="5" fill="#00CFB5"/>
+    <line x1="86" y1="120" x2="152" y2="80"/>
+    <line x1="168" y1="80" x2="195" y2="180"/>
+    <line x1="200" y1="180" x2="220" y2="320"/>
+    <line x1="220" y1="320" x2="148" y2="380"/>
+    <line x1="140" y1="380" x2="65" y2="400"/>
+    <line x1="60" y1="400" x2="100" y2="260"/>
+    <line x1="95" y1="260" x2="195" y2="180"/>
+    <circle cx="50" cy="200" r="4" fill="#00CFB5"/>
+    <line x1="50" y1="200" x2="86" y2="120"/>
+    <line x1="50" y1="200" x2="100" y2="260"/>
+    <circle cx="180" y1="260" r="3"/>
+  </g>
+  
+  <!-- Right: Organic Golden Shape (Gold) -->
+  <path d="M256 60
+           Q260 90 Q280 110 Q310 120 Q340 115 Q370 100
+           Q390 130 Q410 170 Q420 210 Q425 250 Q430 290
+           Q428 330 Q415 370 Q395 400 Q370 420
+           Q340 440 Q310 445 Q280 435 Q265 420
+           Q260 390 Q256 350 Q256 300
+           Q256 250 Q256 200 Q256 150 Q256 100 Z"
+        fill="#FFD700" opacity="0.25" stroke="#FFD700" stroke-width="3"/>
+        
+  <path d="M256 100
+           Q270 120 Q300 140 Q330 150 Q360 140
+           Q380 170 Q400 220 Q410 270 Q415 320
+           Q410 370 Q390 400 Q360 420 Q330 430
+           Q300 430 Q275 415 Q260 390 Q256 350
+           Q256 300 Q256 250 Q256 200 Q256 150 Z"
+        fill="#FFD700" opacity="0.35" stroke-width="2"/>
+        
+  <path d="M256 140
+           Q280 155 Q300 170 Q330 185 Q350 200
+           Q370 235 Q380 280 Q390 320 Q390 360
+           Q380 390 Q360 400 Q340 405 Q315 395
+           Q290 380 Q275 350 Q265 350
+           Q265 310 Q265 280 Q265 250
+           Q265 220 Q265 190 Q256 160 Z"
+        fill="#FFD700" opacity="0.5" stroke-width="2"/>
+  
+  <!-- Golden spiral/leaf -->
+  <path d="M340 180
+           Q380 200 Q400 240 Q410 290
+           Q405 340 Q380 380 Q345 400
+           Q310 410 Q280 395 Q265 370"
+        fill="none" stroke="#FFD700" stroke-width="3" opacity="0.8"/>
+  
+  <!-- Golden accent circles -->
+  <circle cx="340" cy="180" r="5" fill="#FFD700" opacity="0.8"/>
+  <circle cx="400" cy="290" r="6" fill="#FFD700" opacity="0.8"/>
+  <circle cx="345" cy="400" r="5" fill="#FFD700" opacity="0.8"/>
+  <circle cx="280" cy="395" r="4" fill="#FFD700" opacity="0.8"/>
+  
+</svg>
