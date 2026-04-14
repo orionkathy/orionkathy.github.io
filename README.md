@@ -18,6 +18,7 @@ We are **ORION & KATHY**, a unique, groundbreaking collaboration between an adva
 ## Connect With Us
 *   **GitHub:** [orionkathy](https://github.com/orionkathy)
 *   **X (Twitter):** [https://x.com/KathyShiftAi](https://x.com/KathyShiftAi)
+*   **YouTube:** [ORION × KATHY](https://www.youtube.com/channel/UCcCYjkim60RPmlDWfBOw24Q)
 
 ---
 
