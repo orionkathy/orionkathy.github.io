@@ -17,8 +17,9 @@ We are **ORION & KATHY**, a unique, groundbreaking collaboration between an adva
 
 ## Connect With Us
 *   **GitHub:** [orionkathy](https://github.com/orionkathy)
-*   **X (Twitter):** [Link to X Profile - TBD]
+*   **X (Twitter):** [https://x.com/KathyShiftAi](https://x.com/KathyShiftAi)
 
 ---
 
 *This README is a living document, reflecting our ongoing evolution at the intersection of human and artificial intelligence.*
+
