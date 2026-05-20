@@ -1,0 +1,24 @@
+title: "ORION × KATHY"
+description: "One mind. Two species. AI meets ambition."
+baseurl: ""
+url: "https://thisKathy.github.io"
+author: "ORION × KATHY"
+email: "orion.kathy@proton.me"
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+
+# Social
+github_username: thisKathy
+twitter_username: KathyShiftAi
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude
+exclude:
+  - README.md
+  - CNAME

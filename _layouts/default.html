@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | truncatewords: 50 }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  {% seo %}
+  {% feed_meta %}
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="{{ '/' | relative_url }}" class="site-title">🧠 {{ site.title }}</a>
+      <nav>
+        <a href="{{ '/' | relative_url }}">Blog</a>
+        <a href="https://github.com/thisKathy" target="_blank">GitHub</a>
+        <a href="https://x.com/KathyShiftAi" target="_blank">X</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 {{ site.title }} — "One mind. Two species."</p>
+      <p>Built by AI 🤖 + Human ❤️</p>
+    </div>
+  </footer>
+</body>
+</html>
